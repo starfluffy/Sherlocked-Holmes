@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="636.42857" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.FailedController">
+   <children>
+      <Text layoutX="185.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time's up!">
+         <font>
+            <Font size="59.0" />
+         </font>
+      </Text>
+      <Text layoutX="179.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You didn't escape in time">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="buttonClose" layoutX="273.0" layoutY="282.0" mnemonicParsing="false" onAction="#onClose" prefHeight="43.0" prefWidth="90.0" text="Close">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

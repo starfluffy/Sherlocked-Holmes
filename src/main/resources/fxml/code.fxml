@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="636.42857" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.CodeController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="636.42857" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background.png" />
+         </image></ImageView>
+      <Button fx:id="buttonSubmit" layoutX="253.0" layoutY="358.0" mnemonicParsing="false" onAction="#onClickSubmit" text="Submit" />
+      <Button fx:id="buttonGoBack" layoutX="540.0" layoutY="383.0" mnemonicParsing="false" onAction="#onClickBack" text="Go back" />
+      <TextField fx:id="fieldAnswer" alignment="CENTER_RIGHT" editable="false" layoutX="110.0" layoutY="106.0" prefHeight="63.0" prefWidth="416.0">
+         <font>
+            <Font size="30.0" />
+         </font></TextField>
+      <Button fx:id="buttonBack" layoutX="332.0" layoutY="358.0" mnemonicParsing="false" onAction="#onClickBackSpace" text="Back space" />
+      <Button fx:id="button1" layoutX="110.0" layoutY="193.0" mnemonicParsing="false" onAction="#onClick1" prefHeight="51.0" prefWidth="67.0" text="1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="200.0" layoutY="193.0" mnemonicParsing="false" onAction="#onClick2" prefHeight="51.0" prefWidth="67.0" text="2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="285.0" layoutY="193.0" mnemonicParsing="false" onAction="#onClick3" prefHeight="51.0" prefWidth="67.0" text="3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="369.0" layoutY="193.0" mnemonicParsing="false" onAction="#onClick4" prefHeight="51.0" prefWidth="67.0" text="4">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="459.0" layoutY="192.0" mnemonicParsing="false" onAction="#onClick5" prefHeight="51.0" prefWidth="67.0" text="5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="110.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClick6" prefHeight="51.0" prefWidth="67.0" text="6">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="200.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClick7" prefHeight="51.0" prefWidth="67.0" text="7">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="285.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClick8" prefHeight="51.0" prefWidth="67.0" text="8">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="369.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClick9" prefHeight="51.0" prefWidth="67.0" text="9">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="button0" layoutX="459.0" layoutY="275.0" mnemonicParsing="false" onAction="#onClick0" prefHeight="51.0" prefWidth="67.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="167.0" layoutY="57.0" text="Enter an 8 digit code" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

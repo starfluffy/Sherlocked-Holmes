@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="636.42857" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.StartController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="636.42857" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonStart" layoutX="255.0" layoutY="306.0" mnemonicParsing="false" onAction="#onStart" prefHeight="56.0" prefWidth="127.0" text="Start">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="244.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/magnifyingGlass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="380.0" layoutX="128.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/titleText.PNG" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="200.0" prefWidth="100.0" />
+      <TextField fx:id="textFieldLoading" alignment="CENTER" layoutX="238.0" layoutY="192.0" prefHeight="65.0" prefWidth="162.0" text="Loading..." visible="false">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
